@@ -45,17 +45,5 @@ window of time, resulting in multiple mean (M) and standard deviation (SD) estim
 per subject. This aggregated dataset presents the means of these M and SD data,
 across the 6 measured activities.
 
-In this aggregated dataset, the field labels listed above are prefixed with "mean."
-to indicate they are a mean of the original field.  Additionally, they are suffixed
-with the name of the activity they represent.
-
-To demonstrate the naming convention, see 3 examples below:
-
-Example 1: mean.tBodyAcc-mean()-X.walk
-Example 2: mean.fBodyGyro-mean()-Y.walkup
-Example 3: mean.tBodyGyroJerk-std()-Y.sit
-
-Example 1 is the mean of the X-axis mean for tBodyAcc, while walking.
-Example 2 is the mean the the Y-axis mean for fBodyGyro, while walking upstairs.
-Example 3 is the mean of the Y-axis standard deviation for tBodyGyroJerk, while sitting.
+Additionally, the first two columns represent the Subject and the activity associated with the observed variable.
 
