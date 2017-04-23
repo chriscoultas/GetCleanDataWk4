@@ -34,6 +34,5 @@ Step 5: Creates a factor of named activity labels and binds it to pare_MSD.
 Step 6.1: Creates one dataset for each of the 6 different activities and 
 	  aggregates (by the mean) the variables, yielding 6 datasets with 
 	  30 rows each. 
-Step 6.2: Merges the datasets back together using cbind. 
-Step 6.3: Selects out the duplicated variable names generated during the split
-	  and aggregate process (Step 6.1). # GetCleanDataWk4
+Step 6.2: Merges the datasets back together using rbind. 
+
